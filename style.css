@@ -1,0 +1,108 @@
+nav ul li a{
+    border: 0px solid red;
+    line-height: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+
+#list2{
+    list-style: none;
+    border: 0px solid red;
+    padding: 0px;
+    border-bottom: 1px solid #0e1e43;
+}
+
+#list2 li{
+ color: white;
+ font-weight: bold;
+ margin-top: 30px;;
+}
+#list2 li a{
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;;
+    text-decoration: none;
+    transition: 0.6s;
+}
+#list2 li a:hover{
+    color:#fa1b7b;
+    font-weight: bold;
+    margin-top: 30px;;
+    text-decoration: none;
+    transition: 0.6s;
+}
+
+
+#list3{
+    list-style: none;
+    padding: 0px;
+}
+#list3 li{
+    
+    color: white;
+    font-weight: bold;
+    margin-top: 5px;;
+   
+   }
+
+   #list3 li a{
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;;
+    text-decoration: none;
+    transition: 0.6s;
+}
+#list3 li a:hover{
+    color:#fa1b7b;
+    font-weight: bold;
+    margin-top: 30px;;
+    text-decoration: none;
+    transition: 0.6s;
+}
+
+#iconsize{
+    width: 30px;
+    height: 30px;
+}
+
+
+
+#list4{
+    list-style: none;
+    padding-left: 10px;;
+}
+#list4 li{
+    display: inline-block;
+
+}
+
+#commentplace{
+    border-radius:0px 0px 0px 0px;
+     background-color: #0e1e43;
+      border:0px; 
+      font-size: 15px;
+       padding: 3px;
+       color: white;
+     
+}
+
+#commentplace::placeholder{
+    color: white;
+    font-size: 12px;
+}
+
+#commentplace2{
+    border-radius:0px 0px 0px 0px;
+     background-color: #0e1e43;
+      border:0px; 
+      font-size: 15px;
+       padding: 3px;
+       color: white;
+     
+}
+
+#commentplace2::placeholder{
+    color: white;
+    font-size: 9px;
+}

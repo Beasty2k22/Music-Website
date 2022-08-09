@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music on</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body style="background-color: #0b1325;">
+    <header style="padding:20px;;">
+        <nav class="navbar navbar-expand-lg " style="border:0px solid red; background-color: #0b1325;"> <a
+                class="navbar-brand" href="#" data-abc="true"><img src="img/logo.png" class="img-responsive"
+                    width="230px" height="100px"></a> <button class="navbar-toggler" type="button"
+                data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false"
+                aria-label="Toggle navigation" style="background-color:white;"> <i class="fa fa-arrow-down" style="color: #050911;"></i> </button>
+            <div class="row collapse navbar-collapse" id="navbarColor02" style="border:0px solid red; background-color: #0b1325;">
+
+                <div class="col-lg-2" style="border: 0px solid red;">
+
+                    <ul class="navbar-nav mr-auto" style="border: 0px solid red;">
+                        <li class="nav-item"><img src="img/resources/icons/14.jpeg" style="width: 30px; height: 30px;">
+                        </li>
+                        <li class="nav-item active"> <a class="nav-link" href="#" data-abc="true">Feed <span
+                                    class="sr-only">(current)</span></a> </li>
+
+
+                    </ul>
+                </div>
+                <div class="col-lg-1" style="border: 0px solid red;">
+
+                </div>
+                <div class="col-lg-6" style="border: 0px solid red; ">
+                    <div class="input-group md-form form-sm form-2 pl-0">
+                        <input class="form-control my-0 py-1 amber-border" type="text"
+                            placeholder="Search for artist,tracks" aria-label="Search"
+                            style="border-radius:100px 0px 0px 100px; background-color: #0e1e43; border:0px;">
+                        <div class="input-group-append">
+                            <span class="input-group-text amber lighten-3" id="basic-text1"
+                                style="color: white ; background-color: #0e1e43; border:0px;"><i
+                                    class="fa fa-search text-grey" aria-hidden="true"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2" style="border: 0px solid red; ">
+                    <span><a href="#" style="color: white;"><i class="fa fa-comment-dots"
+                                aria-hidden="true"></i></a></span> &nbsp;
+                    <span><a href="#" style="color: white;"><i class="fa fa-bell"
+                                aria-hidden="true"></i></a></span>&nbsp;
+                    <span><a href="#" style="color: white;"><i class="fa fa-user"
+                                aria-hidden="true"></i></a></span>&nbsp;
+
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <section style="border:0px solid red; width:100%; padding: 0px;">
+        <div class="container" style="border:1px solid #050911; "></div>
+        <br>
+       
+        <div class="row" style="padding: 0px; border: 0px solid red; width: 100%; margin-top: 10px;;">
+            <div  class="col-lg-2  " style="border:0px solid red; padding-left:50px ; width:fit-content;">
+                
+                <button class="navbar-toggle collapsed" type="button"
+                data-toggle="collapse" data-target="#menubar" aria-controls="menubar" aria-expanded="false"
+                aria-label="Toggle navigation" style="border:1px solid white;background-color:white; color: #0b1325; font-weight: bold; text-align: center;; width: 200px; height: 40px; margin-left: 20%; border-radius: 30px;">  Menubar  <i class="fa fa-arrow-down" style="color: #050911;"></i></button>
+                    <br>
+                <div id="menubar" class="collapse navbar-collapse navbar-expand-lg">
+                    <br>
+                    &nbsp; &nbsp; <button type="submit" style="border:0px; background-color: #0b1325;"><img
+                        src="img/resources/icons/16.jpeg" style="width:130px; height: 50px;"> </button>
+                <br><br>
+                &nbsp; &nbsp; <button type="submit" style="border:0px; background-color: #0b1325;"><img
+                        src="img/resources/icons/17.jpeg" style="width:130px; height: 50px;"></button>
+                <br><br>
+                <ul id="list2">
+                    <li><a href="#"><span><img src="img/resources/icons/4.jpeg" id="iconsize"> </span> &nbsp; &nbsp; Discover</a></li>
+                    <li><a href="#"><span><img src="img/resources/icons/5.jpeg" id="iconsize"> </span> &nbsp; &nbsp; New Music</a></li>
+                    <li><a href="#"><span><img src="img/resources/icons/6.jpeg" id="iconsize"> </span> &nbsp; &nbsp; Top Music</a></li>
+                    <li><a href="#"><span><img src="img/resources/icons/1.jpeg" id="iconsize"> </span> &nbsp; &nbsp; Albums</a></li>
+                    <li><a href="#"><span><img src="img/resources/icons/7.jpeg" id="iconsize"> </span> &nbsp; &nbsp; Spotlight</a></li>
+                    <li><a href="#"><span><img src="img/resources/icons/8.jpeg" id="iconsize"> </span> &nbsp; &nbsp; Generes</a></li>
+                    <li><a href="#"><span><img src="img/resources/icons/9.jpeg" id="iconsize"> </span> &nbsp; &nbsp; Playlist</a></li>
+                    <li><a href="#"><span><img src="img/resources/icons/10.jpeg" id="iconsize"> </span> &nbsp; &nbsp; Stations</a></li>
+                    <br>
+                </ul>
+
+                <h3 style="color: #fa1b7b; text-transform: uppercase; font-size: 20px;">Store</h3>
+                <ul id="list2">
+                    <li><a href="#"><span><img src="img/resources/icons/2.jpeg" id="iconsize"> </span> &nbsp; &nbsp; Browse</a></li>
+                    <li><a href="#"><span><img src="img/resources/icons/11.jpeg" id="iconsize"> </span> &nbsp; &nbsp; Purchased</a></li>
+                    <br>
+                </ul>
+
+                <h3 style="color: #fa1b7b; text-transform: uppercase; font-size: 20px;">Your Music</h3>
+                <ul id="list3">
+                    <li> <a href="#">Recently Played</a></li>
+                    <li><a href="#">My Playlist</a></li>
+                    <li><a href="#">My Podcast</a></li>
+                    <li> <a href="#">Favorites</a></li>
+
+                    <br>
+                </ul>
+            </div>
+           
+
+            </div>
+
+            <div class="col-lg-7" style="border:0px solid red; padding-left:50px ; box-sizing: border-box;">
+                <div class="container" style="border:0px solid red; margin-top: 10px;">
+                    <div class="container" style="border: 0px solid red; width: 100%; background-color: #1a2132; border-radius: 10px;;">
+                        <br>
+                        <div class="row clearfix">
+                            <div class="col-lg-2">
+                                <img class="img-responsive" src="img/resources/3.jpeg"
+                                    style="width: 70px; height: 70px;">
+
+                            </div>
+                            <div class="col-lg-10">
+                                <p style="border-bottom:1px solid gray; color: white; font-size: 13px;">Deen
+                                    Doughouz<br>
+                                    <b style="border:0px solid red; color: rgb(168, 168, 168); font-size: 12px; ">Commented
+                                        on</b> <br>
+                                    <b style="border:0px solid red; color: rgb(255, 255, 255); font-size: 11px; ">James
+                                        Song</b><br>
+                                    <b style="border:0px solid red; color: rgb(168, 168, 168); font-size: 10px; ">6 days
+                                        ago</b> <br><br>
+                                </p>
+                                <div>
+                                    <img class="img-responsive" src="img/resources/4.jpeg"
+                                        style="width: 70px; height: 70px;">
+                                    <b style="border:0px solid red; color: rgb(255, 255, 255); font-size: 11px; ">GTA
+                                        San Andreas CJ rap</b><br><br>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <br><br>
+                    <!--item 2-->
+                    <div class="container" style="border: 0px solid red; width: 100%; background-color: #1a2132; border-radius: 10px;;">
+                        <br>
+                        <div class="row clearfix">
+                            <div class="col-lg-2">
+                                <img class="img-responsive" src="img/resources/3.jpeg"
+                                    style="width: 70px; height: 70px;">
+                            </div>
+                            <div class="col-lg-10">
+                                <p style="border-bottom:1px solid gray; color: white; font-size: 13px;">Deen
+                                    Doughouz<br>
+                                    <b style="border:0px solid red; color: rgb(168, 168, 168); font-size: 12px; ">Commented
+                                        on</b> <br>
+                                    <b style="border:0px solid red; color: rgb(255, 255, 255); font-size: 11px; ">James
+                                        Song</b><br>
+                                    <b style="border:0px solid red; color: rgb(168, 168, 168); font-size: 10px; ">6 days
+                                        ago</b> <br><br>
+                                </p>
+                                <div>
+                                    <img class="img-responsive" src="img/resources/4.jpeg"
+                                        style="width: 70px; height: 70px;">
+                                    <b style="border:0px solid red; color: rgb(255, 255, 255); font-size: 11px; ">GTA
+                                        San Andreas CJ rap</b><br><br>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <br><br>
+                    <!--item 3-->
+                    <div class="container" style="border: 0px solid red; width: 100%; background-color: #1a2132; border-radius: 10px;;">
+                        <br>
+                        <div class="row clearfix">
+                            <div class="col-lg-2">
+                                <img class="img-responsive" src="img/resources/3.jpeg"
+                                    style="width: 70px; height: 70px;">
+
+                            </div>
+                            <div class="col-lg-10">
+                                <p style="border-bottom:1px solid gray; color: white; font-size: 13px;">Deen
+                                    Doughouz<br>
+                                    <b style="border:0px solid red; color: rgb(168, 168, 168); font-size: 12px; ">Commented
+                                        on</b> <br>
+                                    <b style="border:0px solid red; color: rgb(255, 255, 255); font-size: 11px; ">James
+                                        Song</b><br>
+                                    <b style="border:0px solid red; color: rgb(168, 168, 168); font-size: 10px; ">6 days
+                                        ago</b> <br><br>
+                                </p>
+                                <div class="container" style="background-color: transparent; border: 0px solid red; ;">
+                                    <img class="img-responsive" src="img/resources/4.jpeg"
+                                        style="width: 70px; height: 70px;">
+                                    <b style="border:0px solid red; color: rgb(255, 255, 255); font-size: 11px; ">GTA
+                                        San Andreas CJ rap</b><br><br>
+                                    <div class="container" style="border: 0px solid red; padding: 30px; box-sizing: border-box; background-color:#080e1c; border-radius: 10px;">
+                                        <img class="img-responsive" src="img/resources/20.jpeg" style="width: 100%;">
+                                        <div class="input-group md-form form-sm form-2 pl-0" style="border: 0px solid red; margin-top: 10px; ">
+                                            <div class="input-group-append" >
+                                                <span class="input-group-text amber lighten-3" id="basic-text1"
+                                                    style="color: white ; background-color: #0e1e43; border:0px; border-radius:100px 0px 0px 100px;"><i aria-hidden="true"><img src="img/resources/6.jpeg" style="width: 20px; height: 20px;"> </i></span>
+                                            </div>
+                                            <input id="commentplace" class="form-control my-0 py-1 amber-border" type="text"
+                                                placeholder="Write a comment and press enter" aria-label="comment">
+                                            <div class="input-group-append">
+                                                <span class="input-group-text amber lighten-3" id="basic-text1" 
+                                                    style="color: white ; background-color: #0e1e43; border:0px; border-radius:0px 100px 100px 0px;"><i
+                                                        class="fa fa-smile text-grey" aria-hidden="true"></i></span>
+                                            </div>
+                                        </div>
+
+                                        <div class="jumbotron" style="border: 0px solid red;  margin-top: 10px; padding: 30px; box-sizing: border-box; background-color: #0e1e43;">
+                                            <div class="row clearfix" >
+                                                <div class="col-lg-2" style="border: 0px solid red; padding: 0px; width: fit-content; height: fit-content;">
+                                                    <img class="img-responsive" src="img/resources/21.jpeg"  >
+
+                                                </div>
+                                                <div class="col-lg-10" style="border: 0px solid red; padding: 0px;">
+                                                    <p>
+                                                    <b style="color: white; font-size: 12px;">Shollo <small style="color: #fa1b7b;">01:15</small> 
+                                                    <small style="color: #ffffff; font-size: 8px;  text-align: right;margin-left:auto; margin-right: 0px;  float:right;">6 days ago</small>
+                                                    </b> 
+                                                    <br><small style="color: white ; font-size: 11px; margin-top: 0px;;">Hit em up wit' a Grove Street lie dirty sling shot mo' knee high.</small>
+                                                    <br><span><i class="fa fa-comment" aria-hidden="true" style="color: white; font-size: 11px;"> 5</i></span> &nbsp;
+                                                    <span><i class="fa fa-heart" aria-hidden="true" style="color: white; font-size: 11px;"> 3</i></span>
+                                                    </p>
+                                                    <div class="input-group md-form form-sm form-2 pl-0" style="border: 0px solid red; margin-top: 10px; ">
+                                                        <div class="input-group-append" >
+                                                            <span class="input-group-text amber lighten-3" id="basic-text1"
+                                                                style="color: white ; background-color: #0b1325; border:0px; border-radius:100px 0px 0px 100px;"><i aria-hidden="true"><img src="img/resources/6.jpeg" style="width: 20px; height: 20px;"> </i></span>
+                                                        </div>
+                                                        <input id="commentplace2" class="form-control my-0 py-1 amber-border" type="text"
+                                                            placeholder="Write a comment and press enter" aria-label="comment" style="background-color: #0b1325;">
+                                                        <div class="input-group-append" >
+                                                            <span class="input-group-text amber lighten-3" id="basic-text1"
+                                                                style="color: white ; background-color: #0b1325; border:0px; border-radius:0px 100px 100px 0px;"><i
+                                                                    class="fa fa-smile text-grey" aria-hidden="true"></i></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                           
+
+                                            </div>
+                                            <!--comment 2-->
+                                            <br>
+                                            <div class="row clearfix" >
+                                                <div class="col-lg-2" style="border: 0px solid red; padding: 0px; width: fit-content; height: fit-content;">
+                                                    <img class="img-responsive" src="img/resources/21.jpeg"  >
+
+                                                </div>
+                                                <div class="col-lg-10" style="border: 0px solid red; padding: 0px;">
+                                                    <p>
+                                                    <b style="color: white; font-size: 12px;">Shollo <small style="color: #fa1b7b;">01:15</small> 
+                                                    <small style="color: #ffffff; font-size: 8px;  text-align: right;margin-left:auto; margin-right: 0px;  float:right;">6 days ago</small>
+                                                    </b> 
+                                                    <br><small style="color: white ; font-size: 11px; margin-top: 0px;;">Hit em up wit' a Grove Street lie dirty sling shot mo' knee high.</small>
+                                                    <br><span><i class="fa fa-comment" aria-hidden="true" style="color: white; font-size: 11px;"> 5</i></span> &nbsp;
+                                                    <span><i class="fa fa-heart" aria-hidden="true" style="color: white; font-size: 11px;"> 3</i></span>
+                                                    </p>
+                                                    
+                                                </div>
+                                           
+
+                                            </div>
+
+
+
+
+
+                                        </div>
+
+
+                                    </div>
+
+                                    <br>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <br><br>
+                       <!--item 4-->
+                       <div class="container" style="border: 0px solid red; width: 100%; background-color: #1a2132; border-radius: 10px;;">
+                        <br>
+                        <div class="row clearfix">
+                            <div class="col-lg-2">
+                                <img class="img-responsive" src="img/resources/3.jpeg"
+                                    style="width: 70px; height: 70px;">
+                            </div>
+                            <div class="col-lg-10">
+                                <p style="border-bottom:1px solid gray; color: white; font-size: 13px;">Deen
+                                    Doughouz<br>
+                                    <b style="border:0px solid red; color: rgb(168, 168, 168); font-size: 12px; ">Commented
+                                        on</b> <br>
+                                    <b style="border:0px solid red; color: rgb(255, 255, 255); font-size: 11px; ">James
+                                        Song</b><br>
+                                    <b style="border:0px solid red; color: rgb(168, 168, 168); font-size: 10px; ">6 days
+                                        ago</b> <br><br>
+                                </p>
+                                <div>
+                                    <img class="img-responsive" src="img/resources/4.jpeg"
+                                        style="width: 70px; height: 70px;">
+                                    <b style="border:0px solid red; color: rgb(255, 255, 255); font-size: 11px; ">GTA
+                                        San Andreas CJ rap</b><br><br>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <br><br>
+
+
+                
+                       <!--item 5-->
+                       <div class="container" style="border: 0px solid red; width: 100%; background-color: #1a2132; border-radius: 10px;;">
+                        <br>
+                        <div class="row clearfix">
+                            <div class="col-lg-2">
+                                <img class="img-responsive" src="img/resources/3.jpeg"
+                                    style="width: 70px; height: 70px;">
+                            </div>
+                            <div class="col-lg-10">
+                                <p style="border-bottom:1px solid gray; color: white; font-size: 13px;">Deen
+                                    Doughouz<br>
+                                    <b style="border:0px solid red; color: rgb(168, 168, 168); font-size: 12px; ">Commented
+                                        on</b> <br>
+                                    <b style="border:0px solid red; color: rgb(255, 255, 255); font-size: 11px; ">James
+                                        Song</b><br>
+                                    <b style="border:0px solid red; color: rgb(168, 168, 168); font-size: 10px; ">6 days
+                                        ago</b> <br><br>
+                                </p>
+                                <div>
+                                    <img class="img-responsive" src="img/resources/4.jpeg"
+                                        style="width: 70px; height: 70px;">
+                                    <b style="border:0px solid red; color: rgb(255, 255, 255); font-size: 11px; ">GTA
+                                        San Andreas CJ rap</b><br><br>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <br><br>
+
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-3" style="border:0px solid rgb(253, 253, 253); padding:0px ;  width:100%;">
+                <div class="container" style="border:0px solid red ; background-color: #080e1c; border-radius: 10px; width:fit-content; margin-left: auto; margin-top: 10px;">
+                    <br>
+                    <span><img src="img/resources/icons/13.jpeg" style="width: 25px; height: 25px;"></span> <b
+                        style="color: white;">SPONSOR</b><br>
+                    <span><img src="img/resources/2.jpeg" style="width: 130px; height: 130px;"></span> <span><img
+                            src="img/resources/7.jpeg" style="width: 130px; height: 130px;"></span>
+
+                    <br><br>
+                    <h4 style="color: white; font-weight: bold; font-size: 15px;">Download Now</h4>
+                    <p style="color: white;  font-size: 9px;">DKmusic app is an free online music streaming platfrom</p>
+                    <br>
+                </div>
+
+                <br>
+                <div class="container" style="border:0px solid red ; background-color: #080e1c; border-radius: 10px; width:fit-content; margin-left: auto;">
+                    <br>
+                    <span><img src="img/resources/icons/12.jpeg" style="width: 25px; height: 25px;"></span> <b
+                        style="color: white;">Artists to Follow</b><br>
+                    <ul id="list4">
+                        <li> <span><img src="img/resources/6.jpeg" style="width: 80px; height: 100px;"> <br> <small
+                                    style="color: white; text-align: center; padding-left: 10px;">Ida Jackson</small>
+                            </span>
+                        </li>
+                        <li> <span><img src="img/resources/6.jpeg" style="width: 80px; height: 100px;"> <br> <small
+                                    style="color: white; text-align: center; padding-left: 10px;">Ida Jackson</small>
+                            </span>
+                        </li>
+                        <li> <span><img src="img/resources/6.jpeg" style="width: 80px; height: 100px;"> <br> <small
+                                    style="color: white; text-align: center; padding-left: 10px;">Ida Jackson</small>
+                            </span>
+                        </li>
+                    </ul>
+                    <br>
+                </div>
+
+                <br>
+                <div class="container" style="border:0px solid red ; background-color: #080e1c; border-radius: 10px; width:fit-content; margin-left: auto;">
+                    <br>
+                    <span><img src="img/resources/icons/3.jpeg" style="width: 25px; height: 25px;"></span> <b
+                        style="color: white;">Weekly Top Tracks</b><br>
+
+                    <div class="container"
+                        style="border:0px solid red ; background-color: #1a2132; padding:10px; box-sizing: border-box; margin-top: 10px; border-radius: 10px;">
+                        <img class="img-responsive" src="img/resources/5.jpeg" style="width: 50px; height: 50px;">
+                        <b style="color: white; margin-left: 10px;">Testing selling song </b><br>
+                        <b style="border:0px solid red ; color: white; font-size: 12px; float: left; margin-left: 31%; margin-top: -20px; font-weight: 300;">Deen doughouz </b>
+
+                    </div>
+
+                    <div class="container"
+                        style="border:0px solid red ; background-color: #1a2132; padding:10px; box-sizing: border-box; margin-top: 10px; border-radius: 10px;">
+                        <img class="img-responsive" src="img/resources/5.jpeg" style="width: 50px; height: 50px;">
+                        <b style="color: white; margin-left: 10px;">Testing selling song </b>
+                        <br>
+                        <b style="border:0px solid red ; color: white; font-size: 12px; float: left; margin-left: 31%; margin-top: -20px; font-weight: 300;">Deen doughouz </b>
+
+                    </div>
+
+                    <div class="container"
+                        style="border:0px solid red ; background-color: #1a2132; padding:10px; box-sizing: border-box; margin-top: 10px; border-radius: 10px;">
+                        <img class="img-responsive" src="img/resources/5.jpeg" style="width: 50px; height: 50px;">
+                        <b style="color: white; margin-left: 10px;">Testing selling song </b>
+                        <br>
+                        <b style="border:0px solid red ; color: white; font-size: 12px; float: left; margin-left: 31%; margin-top: -20px; font-weight: 300;">Deen doughouz </b>
+
+                    </div>
+
+                    <div class="container"
+                        style="border:0px solid red ; background-color: #1a2132; padding:10px; box-sizing: border-box; margin-top: 10px; border-radius: 10px;">
+                        <img class="img-responsive" src="img/resources/5.jpeg" style="width: 50px; height: 50px;">
+                        <b style="color: white; margin-left: 10px;">Testing selling song </b>
+                        <br>
+                        <b style="border:0px solid red ; color: white; font-size: 12px; float: left; margin-left: 31%; margin-top: -20px; font-weight: 300;">Deen doughouz </b>
+
+                    </div>
+
+                    <div class="container"
+                        style="border:0px solid red ; background-color: #1a2132; padding:10px; box-sizing: border-box; margin-top: 10px; border-radius: 10px;">
+                        <img class="img-responsive" src="img/resources/5.jpeg" style="width: 50px; height: 50px;">
+                        <b style="color: white; margin-left: 10px;">Testing selling song </b>
+                        <br>
+                        <b style="border:0px solid red ; color: white; font-size: 12px; float: left; margin-left: 31%; margin-top: -20px; font-weight: 300;">Deen doughouz </b>
+
+                    </div>
+
+                    <div class="container"
+                        style="border:0px solid red ; background-color: #1a2132; padding:10px; box-sizing: border-box; margin-top: 10px; border-radius: 10px;">
+                        <img class="img-responsive" src="img/resources/5.jpeg" style="width: 50px; height: 50px;">
+                        <b style="color: white; margin-left: 10px;">Testing selling song </b>
+                        <br>
+                        <b style="border:0px solid red ; color: white; font-size: 12px; float: left; margin-left: 31%; margin-top: -20px; font-weight: 300;">Deen doughouz </b>
+
+                    </div>
+
+                    <br>
+                </div>
+
+            </div>
+        </div>
+        <div class="container" style="border:0px solid rgb(255, 255, 255); margin-top: 0px; margin-left: 0px;">
+            <div class="row clearfix" style="padding: 0px; border: 0px solid red; width: 100%; margin-top: 10px;;" >
+                <div class="col-md-4" style="border-top:1px solid #0e1e43; padding-left:50px ; width:fit-content;" >
+                    <select style="border:1px solid #080e1c;padding: 5px; box-sizing: border-box; box-shadow: 1px 1px 13px black; margin-left: auto; margin-right: 0px; float: right; background-color: #080e1c; color: white;"> <i class="fas fa-chevron-circle-down"></i>
+                        <option>English</option>
+                    </select><br>
+                    <p>
+                        <b style="color: white; font-size: 15px; font-weight: 300;">© 2021 MuzicOn </b><br>
+                        <b style="color: white; font-size: 15px; font-weight: 300;">DMCA <small style="font-size: 3px; "><i class="fas fa-circle"></i></small> </b>
+                        <b style="color: white; font-size: 15px; font-weight: 300;">Points system <small style="font-size: 3px; "><i class="fas fa-circle"></i></small> </b>
+                        <b style="color: white; font-size: 15px; font-weight: 300;">Blogs  <small style="font-size: 3px; "><i class="fas fa-circle"></i></small> </b>
+                        <b style="color: white; font-size: 15px; font-weight: 300;">About Us </b><br>
+                        <b style="color: white; font-size: 15px; font-weight: 300;">Terms  <small style="font-size: 3px; "><i class="fas fa-circle"></i></small> </b>
+                        <b style="color: white; font-size: 15px; font-weight: 300;">Contact  <small style="font-size: 3px; "><i class="fas fa-circle"></i></small> </b>
+                        <b style="color: white; font-size: 15px; font-weight: 300;">Privacy Policy  </b>
+
+
+
+                    </p>
+                </div>
+
+                <div class="col-md-8">
+
+                </div>
+
+                
+            </div>
+           
+        </div>
+
+    </section>
+
+
+
+
+</body>
+
+</html>
